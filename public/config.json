@@ -21,7 +21,7 @@
                 }									
 			],
           "outArguments": [],
-          "url": "https://smsintegration.herokuapp.com/journeybuilder/execute",
+          "url": "https://icsintegration.herokuapp.com/journeybuilder/execute",
            "verb": "POST",
             "body": "",
             "header": "",
@@ -31,24 +31,24 @@
         }
     },
     "configurationArguments": {
-      "applicationExtensionKey": "79ba8089-314f-402c-bda1-a0c626ad39f7",
+      "applicationExtensionKey": "a494d925-6444-46f1-ae19-895c925fbed2",
       "save": {
-        "url": "https://smsintegration.herokuapp.com/journeybuilder/save",
+        "url": "https://icsintegration.herokuapp.com/journeybuilder/save",
           "verb": "POST",
         "useJwt": true
        },
        "publish": {
-        "url": "https://smsintegration.herokuapp.com/journeybuilder/publish",
+        "url": "https://icsintegration.herokuapp.com/journeybuilder/publish",
            "verb": "POST",
         "useJwt": true
        },
       "stop": {
-        "url": "https://smsintegration.herokuapp.com/journeybuilder/stop",
+        "url": "https://icsintegration.herokuapp.com/journeybuilder/stop",
            "verb": "POST",
         "useJwt": true
       },
       "validate": {
-        "url": "https://smsintegration.herokuapp.com/journeybuilder/validate",
+        "url": "https://icsintegration.herokuapp.com/journeybuilder/validate",
         "verb": "POST",
         "useJwt": true
       }
